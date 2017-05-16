@@ -1,0 +1,7 @@
+*.pdf
+node_modules
+.DS_Store
+examples/
+lib/
+fonts/
+docs/

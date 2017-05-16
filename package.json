@@ -1,0 +1,39 @@
+{
+  "name": "leerraum",
+  "version": "0.0.1",
+  "description": "A PDF typesetting library with exact positioning and hyphenated line breaking",
+  "main": "js/lib/Leerraum.js",
+  "types": "js/lib/Leerraum.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkamenarsky/leerraum.js.git"
+  },
+  "homepage": {
+    "url": "https://github.com/pkamenarsky/leerraum.js"
+  },
+  "bugs": {
+    "url": "https://github.com/pkamenarsky/leerraum.js/issues"
+  },
+  "keywords": [
+    "typesetting",
+    "typography",
+    "grid",
+    "layout",
+    "design",
+    "pdf",
+    "hyphenation"
+  ],
+  "dependencies": {
+    "hypher": "^0.2.5",
+    "hyphenation.en-us": "^0.2.1",
+    "pdfkit": "^0.8.0"
+  },
+  "author": "p.kamenarsky@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^7.0.18"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "outDir": "./js",
+    "declaration": true
+  },
+  "include": [
+    "lib/**/*",
+    "examples/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
