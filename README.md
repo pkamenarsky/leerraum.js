@@ -10,6 +10,7 @@ leerraum.js is a PDF typesetting / layouting library based on [typeset](https://
 
 * [Motivation](#motivation)
 * [Installation](#installation)
+* [Generating the example PDF](#generating-the-example-pdf)
 * [Basic usage](#basic-usage)
 * [Documentation](#documentation)
   * [Bounding boxes](#bounding-boxes)
@@ -28,7 +29,7 @@ leerraum.js is a PDF typesetting / layouting library based on [typeset](https://
 
 ## Motivation
 
-leerraum.js *does not* aim to be a replacement for LaTeX. Its main difference to other typesetting systems like [Patoline](https://www.patoline.org) or [SILE](http://sile-typesetter.org/) is that it is just a Javascript library rather than being a full blown document processing system with a domain specific language. The motivation behind that decision is that while initial setup cost may be a bit higher, in many circumstances the convenience of a general purpose language is just a bit too hard to give up (i.e. extensibility, generative design, templating, pulling records from a database, ...)
+leerraum.js *does not* aim to be a replacement for LaTeX. Its main difference to other typesetting systems like [Patoline](https://www.patoline.org) or [SILE](http://sile-typesetter.org/) is that it is just a Javascript library rather than being a full blown document processing system with a domain specific language. The motivation behind that decision is that while initial setup cost may be a bit higher, in many circumstances the convenience of a general purpose language is just a bit too hard to give up (i.e. extensibility, generative design, templating, pulling records from a database, etc.)
 
 leerraum.js is especially well suited for situations in which perfect control over positioning, layout and high quality hyphenated line breaking is essential.
 
@@ -66,6 +67,19 @@ leer.renderToPDF('test.pdf', leer.formats.A4,
     }
   ]);
 ```
+## Generating the example PDF
+
+Install [Typescript](https://www.typescriptlang.org). Then:
+
+```bash
+git clone https://github.com/pkamenarsky/leerraum.js.git
+cd leerraum.js
+npm install
+tsc -p .
+node node js/examples/Example.js
+```
+
+`example.pdf` should be generated in the current directory.
 
 ## Documentation
 
