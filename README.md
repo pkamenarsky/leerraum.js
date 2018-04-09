@@ -29,7 +29,7 @@ leerraum.js is a PDF typesetting / layouting library based on [typeset](https://
 
 ## Motivation
 
-leerraum.js *does not* aim to be a replacement for LaTeX. Its main difference to other typesetting systems like [Patoline](https://www.patoline.org) or [SILE](http://sile-typesetter.org/) is that it is just a Javascript library rather than being a full blown document processing system with a domain specific language. The motivation behind that decision is that while initial setup cost may be a bit higher, in many circumstances the convenience of a general purpose language is just a bit too hard to give up (i.e. extensibility, generative design, templating, pulling records from a database, etc.)
+leerraum.js *does not* aim to be a replacement for LaTeX. Its main difference to other typesetting systems like [Patoline](https://patoline.github.io) or [SILE](http://sile-typesetter.org/) is that it is just a Javascript library rather than being a full blown document processing system with a domain specific language. The motivation behind that decision is that while initial setup cost may be a bit higher, in many circumstances the convenience of a general purpose language is just a bit too hard to give up (i.e. extensibility, generative design, templating, pulling records from a database, etc.)
 
 leerraum.js is especially well suited for situations in which perfect control over positioning, layout and high quality hyphenated line breaking is essential.
 
